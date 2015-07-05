@@ -1,13 +1,13 @@
 {
-  "name": "Greeting",
-  "version": "0.0.0",
+  "name": "greetings",
+  "version": "0.0.1",
   "description": "Get a random greeting",
   "license": "MIT",
-  "repository": "alonalon/greeting",
+  "repository": "alonalon/Greetings",
   "author": {
     "name": "alonalon",
     "email": "aronhafner@gmail.com",
-    "url": "github.com/alon"
+    "url": "github.com/alonalon"
   },
   "bin": "cli.js",
   "engines": {

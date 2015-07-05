@@ -1,4 +1,4 @@
-# hello [![Build Status](https://travis-ci.org/alonalon/hello.svg?branch=master)](https://travis-ci.org/alonalon/hello)
+# Greetings [![Build Status](https://travis-ci.org/alonalon/hello.svg?branch=master)](https://travis-ci.org/alonalon/hello)
 
 > My spectacular module
 
@@ -6,17 +6,15 @@
 ## Install
 
 ```
-$ npm install --save hello
+$ npm install --save greeting
 ```
 
 
 ## Usage
 
 ```js
-var hello = require('hello');
+var greetings = require('greeting');
 
-hello('unicorns');
-//=> unicorns & rainbows
 ```
 
 
