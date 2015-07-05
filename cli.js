@@ -2,6 +2,7 @@
 'use strict';
 var meow = require('meow');
 var greetings = require('./');
+var chalk = require('chalk');
 
 var cli = meow({
 	help: [
@@ -21,5 +22,4 @@ var cli = meow({
 	]
 });
 
-console.log(cli.flags.all ? greetings.all.join('\n') : greetings.random());
-//console.log(hello(cli.input[0] || 'unicorns'));
+console.log(cli.flags.all ? chalk.blue(greetings.all.join('\n')) : chalk.green(greetings.random()));
