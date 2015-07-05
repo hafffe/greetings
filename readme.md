@@ -1,4 +1,4 @@
-# Greetings [![Build Status](https://travis-ci.org/alonalon/hello.svg?branch=master)](https://travis-ci.org/alonalon/hello)
+# Greetings! [![Build Status](https://travis-ci.org/alonalon/hello.svg?branch=master)](https://travis-ci.org/alonalon/hello)
 
 > My spectacular module
 
@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save greeting
+$ npm install --save greetings
 ```
 
 
 ## Usage
 
 ```js
-var greetings = require('greeting');
+var greetings = require('greetings');
 
 ```
 
@@ -21,29 +21,29 @@ var greetings = require('greeting');
 ## CLI
 
 ```
-$ npm install --global hello
+$ npm install --global greetings
 ```
 ```
-$ hello --help
+$ greetings --help
 
   Usage
-    hello [input]
+    greetings [input]
 
   Example
+    greetings
     hello
-    unicorns & rainbows
 
     hello ponies
     ponies & rainbows
 
   Options
-    --foo  Lorem ipsum. Default: false
+    --all  Get all greetings instead of a random'
 ```
 
 
 ## API
 
-### hello(input, [options])
+### greetings(input, [options])
 
 #### input
 

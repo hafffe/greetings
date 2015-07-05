@@ -1,5 +1,6 @@
 'use strict';
-const hello = require('./hello.json');
+const greetings = require('./greetings.json');
 const uniqueRandomArray = require('unique-random-array');
 
-exports.random = uniqueRandomArray(hello);
+exports.all = greetings;
+exports.random = uniqueRandomArray(greetings);

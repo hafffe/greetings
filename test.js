@@ -1,9 +1,10 @@
 'use strict';
 var test = require('ava');
-var assert = require('assert');
-var hello = require('./');
+var greeting = require('./');
 
-test('hello', function (t) {
-	t.plan(1);
-	t.assert(typeof hello.random() === 'string');
+test(function (t) {
+	t.assert(greeting.all.length > 0);
+	t.assert(greeting.all.indexOf('Howdy') !== -1);
+	t.assert(greeting.random());
+	t.end();
 });
