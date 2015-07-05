@@ -1,0 +1,36 @@
+{
+  "name": "Greeting",
+  "version": "0.0.0",
+  "description": "Get a random greeting",
+  "license": "MIT",
+  "repository": "alonalon/greeting",
+  "author": {
+    "name": "alonalon",
+    "email": "aronhafner@gmail.com",
+    "url": "github.com/alon"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.3.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4",
+    "mocha": "*"
+  }
+}
