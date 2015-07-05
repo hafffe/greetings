@@ -1,6 +1,6 @@
 {
   "name": "greetings",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Get a random greeting",
   "license": "MIT",
   "repository": "alonalon/Greetings",
@@ -19,7 +19,7 @@
   "files": [
     "index.js",
     "cli.js",
-    "greeting.json"
+    "greetings.json"
   ],
   "keywords": [
     "cli-app",
