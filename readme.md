@@ -50,4 +50,4 @@ $ greetings --help
 
 ## License
 
-MIT © [alonalon](http://github.com/alon)
+MIT © [alonalon](http://github.com/alonalon)
