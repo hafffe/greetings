@@ -1,6 +1,6 @@
 # Greetings! [![Build Status](https://travis-ci.org/alonalon/hello.svg?branch=master)](https://travis-ci.org/alonalon/hello)
 
-> My spectacular module
+> Get a random greeting
 
 
 ## Install
@@ -15,6 +15,11 @@ $ npm install --save greetings
 ```js
 var greetings = require('greetings');
 
+console.log(greetings.random);
+// 'Good day'
+
+console.log(greetings)
+// ['Hey', 'Hello', 'Hi', 'Howdy', 'Bonjour', 'Good day', ...]
 ```
 
 
@@ -23,43 +28,24 @@ var greetings = require('greetings');
 ```
 $ npm install --global greetings
 ```
+
 ```
 $ greetings --help
 
   Usage
-    greetings [input]
+    $ greetings [input]
 
   Example
-    greetings
-    hello
+    $ greetings
+    Hello
 
-    hello ponies
-    ponies & rainbows
+    $ greetings --all
+    Hello
+    Howdy
 
   Options
-    --all  Get all greetings instead of a random'
+    --all  Get all greetings instead of a random
 ```
-
-
-## API
-
-### greetings(input, [options])
-
-#### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
 
 
 ## License
