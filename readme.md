@@ -1,4 +1,4 @@
-# Greetings! [![Build Status](https://travis-ci.org/alonalon/hello.svg?branch=master)](https://travis-ci.org/alonalon/hello)
+# Greetings! [![Build Status](https://travis-ci.org/alonalon/Greetings.svg?branch=master)](https://travis-ci.org/alonalon/Greetings)
 
 > Get a random greeting
 
