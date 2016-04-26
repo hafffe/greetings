@@ -1,10 +1,13 @@
-'use strict';
-var test = require('ava');
-var greeting = require('./');
+import test from 'ava';
+import fn from './';
 
-test(function (t) {
-	t.assert(greeting.all.length > 0);
-	t.assert(greeting.all.indexOf('Howdy') !== -1);
-	t.assert(greeting.random());
+test.cb('should return an array', t => {
+	t.is(Array.isArray(fn.all), true);
+	t.end();
+});
+
+test.cb('should return a random string from the list', t => {
+	t.is(typeof fn(), 'string');
+	t.is(fn.all.indexOf(fn()) !== -1, true);
 	t.end();
 });

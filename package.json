@@ -9,29 +9,28 @@
     "email": "aronhafner@gmail.com",
     "url": "github.com/alonalon"
   },
-  "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "index.js",
-    "cli.js",
     "greetings.json"
   ],
   "keywords": [
-    "cli-app",
-    "cli"
+    "greetings",
+    "hello",
+	"hi",
+	"salute",
+	"welcome"
   ],
   "dependencies": {
-    "chalk": "^1.1.0",
-    "meow": "^3.3.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "0.0.4",
-    "concat-stream": "^1.5.0"
+    "ava": "*",
+    "xo": "*"
   }
 }

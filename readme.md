@@ -15,39 +15,19 @@ $ npm install --save greetings
 ```js
 var greetings = require('greetings');
 
-console.log(greetings.random);
-// 'Good day'
+greetings();
+//=> 'Good day'
 
-console.log(greetings)
-// ['Hey', 'Hello', 'Hi', 'Howdy', 'Bonjour', 'Good day', ...]
+greetings();
+//=> 'Hello'
+
+greetings.all;
+//=> ['Hey', 'Hello', 'Hi', 'Howdy', 'Bonjour', 'Good day', ...]
 ```
 
 
-## CLI
-
-```
-$ npm install --global greetings
-```
-
-```
-$ greetings --help
-
-  Usage
-    $ greetings [input]
-
-  Example
-    $ greetings
-    Hello
-
-    $ greetings --all
-    Hello
-    Howdy
-
-  Options
-    --all  Get all greetings instead of a random
-```
-
-
+## Related
+[thx](https://github.com/gillstrom/thx) - Get a random way to show your gratitude in different languages.
 ## License
 
 MIT © [alonalon](http://github.com/alonalon)
