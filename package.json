@@ -1,6 +1,6 @@
 {
   "name": "greetings",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Get a random greeting",
   "license": "MIT",
   "repository": "alonalon/Greetings",
@@ -22,9 +22,9 @@
   "keywords": [
     "greetings",
     "hello",
-	"hi",
-	"salute",
-	"welcome"
+    "hi",
+    "salute",
+    "welcome"
   ],
   "dependencies": {
     "unique-random-array": "^1.0.0"
